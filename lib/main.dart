@@ -5,6 +5,8 @@ import 'package:logging/logging.dart';
 import 'package:intl/intl.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'l10n/app_localizations.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() {
   final format = DateFormat('HH:mm:ss');
@@ -27,8 +29,18 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Elaina client',
+      title: AppLocalizations.of(context)?.title ?? 'Elaina client',
       theme: LiveKitTheme().buildThemeData(context),
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+      ],
+      supportedLocales: const [
+        Locale('en'),
+        Locale('ru'),
+      ],
       home: const MyHomePage(),
     );
   }
@@ -118,7 +130,7 @@ class _MyHomePageState extends State<MyHomePage> {
         final deviceScreenType = getDeviceType(MediaQuery.of(context).size);
         return Scaffold(
           appBar: AppBar(
-            title: const Text('Elaina client', style: TextStyle(color: Colors.white)),
+            title: Text(AppLocalizations.of(context)?.title ?? 'Elaina client', style: const TextStyle(color: Colors.white)),
             actions: [
               /// show clear pin button
               if (roomCtx.connected) const ClearPinButton(),

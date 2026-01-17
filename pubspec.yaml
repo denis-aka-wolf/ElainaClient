@@ -38,6 +38,9 @@ dependencies:
   fluttertoast: ^8.2.12
   responsive_builder: ^0.7.1
   shared_preferences: ^2.5.3
+  flutter_localizations:
+    sdk: flutter
+
 
 dev_dependencies:
   flutter_test:
@@ -53,3 +56,11 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  generate: true
+
+flutter_intl:
+  enabled: true
+  class_name: AppLocalizations
+  main_locale: en
+  arb_dir: lib/l10n
+  output_dir: lib/l10n/generated

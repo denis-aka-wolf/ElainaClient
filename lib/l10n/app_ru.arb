@@ -1,0 +1,70 @@
+{
+  "title": "Клиент Elaina",
+  "enterUrl": "Введите URL",
+  "enterToken": "Введите токен",
+  "join": "Присоединиться",
+  "leave": "Покинуть",
+  "settings": "Настройки",
+  "chat": "Чат",
+  "participants": "Участники",
+  "audio": "Аудио",
+  "video": "Видео",
+  "screenShare": "Демонстрация экрана",
+  "disconnect": "Отключиться",
+  "reconnect": "Переподключиться",
+  "cameraOn": "Камера вкл",
+  "cameraOff": "Камера выкл",
+  "microphoneOn": "Микрофон вкл",
+  "microphoneOff": "Микрофон выкл",
+  "@title": {
+    "description": "Заголовок приложения"
+  },
+  "@enterUrl": {
+    "description": "Подсказка для ввода URL"
+  },
+  "@enterToken": {
+    "description": "Подсказка для ввода токена"
+  },
+  "@join": {
+    "description": "Текст кнопки присоединиться"
+  },
+  "@leave": {
+    "description": "Текст кнопки покинуть"
+  },
+  "@settings": {
+    "description": "Элемент меню настроек"
+  },
+  "@chat": {
+    "description": "Элемент меню чата"
+  },
+  "@participants": {
+    "description": "Список участников"
+  },
+  "@audio": {
+    "description": "Управление аудио"
+  },
+  "@video": {
+    "description": "Управление видео"
+  },
+  "@screenShare": {
+    "description": "Опция демонстрации экрана"
+  },
+  "@disconnect": {
+    "description": "Кнопка отключения"
+  },
+  "@reconnect": {
+    "description": "Кнопка переподключения"
+  },
+  "@cameraOn": {
+    "description": "Опция включения камеры"
+  },
+  "@cameraOff": {
+    "description": "Опция выключения камеры"
+  },
+  "@microphoneOn": {
+    "description": "Опция включения микрофона"
+  },
+  "@microphoneOff": {
+    "description": "Опция выключения микрофона"
+  }
+}

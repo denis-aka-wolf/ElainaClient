@@ -1,0 +1,70 @@
+{
+  "title": "Elaina client",
+  "enterUrl": "Enter URL",
+  "enterToken": "Enter Token",
+  "join": "Join",
+  "leave": "Leave",
+  "settings": "Settings",
+  "chat": "Chat",
+  "participants": "Participants",
+  "audio": "Audio",
+  "video": "Video",
+  "screenShare": "Screen Share",
+  "disconnect": "Disconnect",
+  "reconnect": "Reconnect",
+  "cameraOn": "Camera On",
+  "cameraOff": "Camera Off",
+  "microphoneOn": "Microphone On",
+  "microphoneOff": "Microphone Off",
+  "@title": {
+    "description": "Application title"
+  },
+  "@enterUrl": {
+    "description": "Prompt to enter URL"
+  },
+  "@enterToken": {
+    "description": "Prompt to enter token"
+  },
+  "@join": {
+    "description": "Join button text"
+  },
+  "@leave": {
+    "description": "Leave button text"
+  },
+  "@settings": {
+    "description": "Settings menu item"
+  },
+  "@chat": {
+    "description": "Chat menu item"
+  },
+  "@participants": {
+    "description": "Participants list"
+  },
+  "@audio": {
+    "description": "Audio controls"
+  },
+  "@video": {
+    "description": "Video controls"
+  },
+  "@screenShare": {
+    "description": "Screen share option"
+  },
+  "@disconnect": {
+    "description": "Disconnect button"
+  },
+  "@reconnect": {
+    "description": "Reconnect button"
+  },
+  "@cameraOn": {
+    "description": "Camera on option"
+  },
+  "@cameraOff": {
+    "description": "Camera off option"
+  },
+  "@microphoneOn": {
+    "description": "Microphone on option"
+  },
+  "@microphoneOff": {
+    "description": "Microphone off option"
+  }
+}
