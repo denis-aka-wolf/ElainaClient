@@ -70,4 +70,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get yourTokenHere => 'Ваш токен здесь';
-}
+  
+  @override
+  String get joinRoom => 'Присоединиться';
+  }

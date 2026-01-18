@@ -82,5 +82,9 @@
   "yourTokenHere": "Your token here",
   "@yourTokenHere": {
     "description": "Placeholder text for token input field"
+  },
+  "joinRoom": "Join Room",
+  "@joinRoom": {
+    "description": "Join room button text"
   }
 }

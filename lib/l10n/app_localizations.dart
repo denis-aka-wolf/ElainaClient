@@ -41,7 +41,8 @@ abstract class AppLocalizations {
   String get camera;
   String get yourUrlHere;
   String get yourTokenHere;
-
+  String get joinRoom;
+  
   static Future<AppLocalizations> load(Locale locale) {
     switch (locale.languageCode) {
       case 'ru':

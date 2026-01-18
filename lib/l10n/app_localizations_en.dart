@@ -70,4 +70,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get yourTokenHere => 'Your token here';
-}
+  
+  @override
+  String get joinRoom => 'Join Room';
+  }

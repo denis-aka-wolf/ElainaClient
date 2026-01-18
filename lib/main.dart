@@ -68,10 +68,10 @@ class _MyHomePageState extends State<MyHomePage> {
     final prefs = await SharedPreferences.getInstance();
     _url = const bool.hasEnvironment('URL')
         ? const String.fromEnvironment('URL')
-        : prefs.getString(_storeKeyUri) ?? 'your url here';
+        : prefs.getString(_storeKeyUri) ?? AppLocalizations.of(context)?.yourUrlHere ?? 'your url here';
     _token = const bool.hasEnvironment('TOKEN')
         ? const String.fromEnvironment('TOKEN')
-        : prefs.getString(_storeKeyToken) ?? 'your token here';
+        : prefs.getString(_storeKeyToken) ?? AppLocalizations.of(context)?.yourTokenHere ?? 'your token here';
   }
 
   // Save URL and Token
