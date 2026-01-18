@@ -58,4 +58,16 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get microphoneOff => 'Микрофон выкл';
+  
+  @override
+  String get microphone => 'Микрофон';
+
+  @override
+  String get camera => 'Камера';
+
+  @override
+  String get yourUrlHere => 'Ваш URL здесь';
+
+  @override
+  String get yourTokenHere => 'Ваш токен здесь';
 }

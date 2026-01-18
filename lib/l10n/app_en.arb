@@ -66,5 +66,21 @@
   },
   "@microphoneOff": {
     "description": "Microphone off option"
+  },
+  "microphone": "Microphone",
+  "@microphone": {
+    "description": "Microphone label"
+  },
+  "camera": "Camera",
+  "@camera": {
+    "description": "Camera label"
+  },
+  "yourUrlHere": "Your URL here",
+  "@yourUrlHere": {
+    "description": "Placeholder text for URL input field"
+  },
+  "yourTokenHere": "Your token here",
+  "@yourTokenHere": {
+    "description": "Placeholder text for token input field"
   }
 }

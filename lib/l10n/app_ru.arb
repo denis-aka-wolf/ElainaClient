@@ -66,5 +66,21 @@
   },
   "@microphoneOff": {
     "description": "Опция выключения микрофона"
+  },
+  "microphone": "Микрофон",
+  "@microphone": {
+    "description": "Название микрофона"
+  },
+  "camera": "Камера",
+  "@camera": {
+    "description": "Название камеры"
+  },
+  "yourUrlHere": "Ваш URL здесь",
+  "@yourUrlHere": {
+    "description": "Текст-заполнитель для поля ввода URL"
+  },
+  "yourTokenHere": "Ваш токен здесь",
+  "@yourTokenHere": {
+    "description": "Текст-заполнитель для поля ввода токена"
   }
 }

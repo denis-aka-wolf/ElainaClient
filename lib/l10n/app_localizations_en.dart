@@ -58,4 +58,16 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get microphoneOff => 'Microphone Off';
+  
+  @override
+  String get microphone => 'Microphone';
+
+  @override
+  String get camera => 'Camera';
+
+  @override
+  String get yourUrlHere => 'Your URL here';
+
+  @override
+  String get yourTokenHere => 'Your token here';
 }

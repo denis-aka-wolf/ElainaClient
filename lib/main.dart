@@ -7,6 +7,7 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'l10n/app_localizations.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+import 'prejoin_wrapper.dart';
 
 void main() {
   final format = DateFormat('HH:mm:ss');
@@ -141,7 +142,7 @@ class _MyHomePageState extends State<MyHomePage> {
               !roomCtx.connected && !roomCtx.connecting
 
                   /// show prejoin screen if not connected
-                  ? Prejoin(
+                  ? PrejoinWrapper(
                       token: _token,
                       url: _url,
                       onJoinPressed: _onJoinPressed,

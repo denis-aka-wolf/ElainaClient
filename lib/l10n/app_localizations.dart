@@ -37,6 +37,10 @@ abstract class AppLocalizations {
   String get cameraOff;
   String get microphoneOn;
   String get microphoneOff;
+  String get microphone;
+  String get camera;
+  String get yourUrlHere;
+  String get yourTokenHere;
 
   static Future<AppLocalizations> load(Locale locale) {
     switch (locale.languageCode) {
